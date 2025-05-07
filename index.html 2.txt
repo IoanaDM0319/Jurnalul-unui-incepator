@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jurnalul unui începător – Ioana DM</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #e8d6f3, #c3f6e6);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      color: #814c9f;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .cover {
+      width: 90%;
+      max-width: 400px;
+      margin: 2rem auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .desc {
+      max-width: 600px;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    .form-link {
+      margin: 2rem 0;
+      font-size: 1.2rem;
+    }
+
+    .form-link a {
+      background: #814c9f;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .form-link a:hover {
+      background: #6e3c86;
+    }
+
+    footer {
+      margin: 2rem 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jurnalul unui începător</h1>
+    <p>by Ioana DM</p>
+  </header>
+
+  <img class="cover" src="coperta.jpeg" alt="Coperta Jurnalului">
+
+  <section class="desc">
+    <p>Descoperă peste 60 de întrebări menite să te apropie de tine însuți. Acest jurnal este un instrument delicat, creat cu grijă, pentru oricine dorește să se cunoască, să reflecteze și să înceapă o călătorie interioară spre vindecare.</p>
+    <p>Ideal pentru copii, adolescenți, părinți sau terapeuți care vor să aducă mai multă conștiență în viața emoțională.</p>
+  </section>
+
+  <div class="form-link">
+    <a href="LINK_FORMULAR_GOOGLE" target="_blank">Comandă jurnalul</a>
+  </div>
+
+  <footer>
+    © 2025 Ioana DM · Toate drepturile rezervate
+  </footer>
+</body>
+</html>
